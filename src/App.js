@@ -16,11 +16,13 @@ const App = () => {
   return (
     <AppWrapper>
       <Flex justify="center">
-        <Title color="green">Console cmd 2022. Ɐrtem</Title>
+        <Title>Console cmd 2022. Ɐrtem</Title>
       </Flex>
-      <Flex direction="column">
+      <Flex direction="column" margin="20px 0">
         <Console />
-        <Button align="flex-end">Отправить</Button>
+        <Button color="green" align="flex-end">
+          Send
+        </Button>
       </Flex>
     </AppWrapper>
   );
